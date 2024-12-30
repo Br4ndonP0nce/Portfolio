@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <div ref={heroRef} className="hero min-h-screen">
       <div className="hero-content text-center">
-        <div className="max-w-md">
+        <div className="flex flex-col max-w-md">
           <div className="flex flex-col justify-center items-center">
             <AnimatedTitle
               title="Hello"
@@ -41,11 +41,11 @@ const Hero = () => {
             <AnimatedTitle
               title="Meet Brandon"
               containerClass=" mt-3 !text-black text-center"
-              textSize="text-7xl"
+              textSize="text-6xl"
               TextColor={"!text-gray-400"}
             />
           </div>
-          <p className="py-6">
+          <p className="py-4">
             Computer Engineer | web3 Developer/Consultant | Product Developer
           </p>
           <div className="flex justify-center">

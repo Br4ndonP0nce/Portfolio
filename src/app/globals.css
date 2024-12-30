@@ -18,6 +18,15 @@ body {
     linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  animation: scrollBackground 10s linear infinite;
+}
+@keyframes scrollBackground {
+  0% {
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  }
+  100% {
+    background-position: -2px 98px, -2px 98px, -1px 19px, -1px 19px;
+  }
 }
 
 @layer base {
@@ -90,11 +99,11 @@ body {
   }
 
   .animated-title {
-    @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6rem];
+    @apply flex flex-col gap-1  leading-[.8]  sm:px-32 md:text-[6rem];
   }
 
   .animated-word {
-    @apply special-font font-zentry font-black opacity-0;
+    @apply font-black opacity-0;
     transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
     transform-origin: 50% 50% -150px !important;
     will-change: opacity, transform;

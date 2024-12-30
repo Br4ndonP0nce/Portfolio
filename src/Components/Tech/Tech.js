@@ -1,9 +1,11 @@
 import React from "react";
 
-export const Tech = () => {
+const Tech = () => {
   return (
-    <div className="Tech bg-base-200 min-h-screen items-center justify-center">
+    <div id="tech" className="min-h-screen flex items-center justify-center">
       Tech
     </div>
   );
 };
+
+export default Tech;

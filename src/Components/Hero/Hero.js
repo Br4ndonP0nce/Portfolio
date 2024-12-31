@@ -52,7 +52,7 @@ const Hero = () => {
             <Button
               title="Get in touch"
               ContainerClass="items-center self-center"
-              link="#about"
+              link="#contact"
             />
           </div>
         </div>

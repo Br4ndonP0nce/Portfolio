@@ -61,14 +61,14 @@ const NavBar = () => {
 
             <Button
               id="product-button"
-              title="Products"
+              title="Contact"
               rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />
           </div>
 
           {/* Navigation Links and Audio Button */}
-          <div className="flex h-full items-center ">
+          <div className=" flex h-full items-center ">
             <div className="flex flex-col md:flex-row gap-1 ">
               {navItems.map((item, index) => (
                 <a

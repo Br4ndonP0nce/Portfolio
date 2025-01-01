@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Brandon Ponce",
+  title: "Decode Next",
   description: "Computer Engineer, Fullstack Developer, Web3 developer",
 };
 

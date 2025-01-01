@@ -28,23 +28,17 @@ const Hero = () => {
     );
   }, []);
   return (
-    <div ref={heroRef} className="hero min-h-screen">
+    <div ref={heroRef} className="hero min-h-screen w-screen">
       <div className="hero-content text-center">
-        <div className="flex flex-col max-w-md">
-          <div className="flex flex-col justify-center items-center">
-            <AnimatedTitle
-              title="Hello"
-              containerClass="mt-5 !text-black text-start"
-              textSize="md:text-3xl text-3xl"
-              TextColor={"!text-gray-300"}
-            />
-            <AnimatedTitle
-              title="Meet Brandon"
-              containerClass=" mt-3 !text-black text-center"
-              textSize="text-6xl"
-              TextColor={"!text-gray-400"}
-            />
-          </div>
+        <div className="relative flex flex-col ">
+          <h1 className="text-center  text-3xl mt-2  font-black text-gray-300">
+            Hello
+          </h1>
+          <h2 className="text-7xl font-black  mt-3  text-center text-gray-400">
+            Meet <br /> Decode <br />
+            <b className="">Next</b>
+          </h2>
+
           <p className="py-4">
             Computer Engineer | web3 Developer/Consultant | Product Developer
           </p>

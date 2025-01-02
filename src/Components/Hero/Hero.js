@@ -28,25 +28,27 @@ const Hero = () => {
     );
   }, []);
   return (
-    <div ref={heroRef} className="hero min-h-screen w-screen">
-      <div className="hero-content text-center">
-        <div className="relative flex flex-col ">
-          <h1 className="text-center  text-3xl mt-2  font-black text-gray-300">
-            Hello
+    <div className="relative h-dvh w-screen overflow-x-hidden">
+      <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
+        Web3/Web2
+      </h1>
+      <div className="absolute left-0 top-0 z-40 size-full">
+        <div className="mt-24 px-5 sm:px-10">
+          <h1 className=" hero-heading text-gray-400">
+            <b className="text-orange-500">De</b>CODE NEXT
           </h1>
-          <h2 className="text-7xl font-black  mt-3  text-center text-gray-400">
-            Meet <br /> Decode <br />
-            <b className="">Next</b>
-          </h2>
-
-          <p className="py-4">
-            Computer Engineer | web3 Developer/Consultant | Product Developer
+          <p className="mb-5 max-w-64 font-robert-regular">
+            <br /> Computer Engineer | <br />
+            web3/web2 Developer/Consultant|
+            <br />
+            Product Developer
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-row gap-2">
             <Button
-              title="Get in touch"
-              ContainerClass="items-center self-center"
-              link="#contact"
+              title={"Get in touch"}
+              id=""
+              containerClass="bg-yellow-300 flex-center gap-1 "
+              link={"#contact"}
             />
           </div>
         </div>

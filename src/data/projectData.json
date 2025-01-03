@@ -2,29 +2,29 @@
   {
     "projectName": "The Gratitude Bear",
     "description": "Web Development, Engineering, Web3 planning, Project Lead",
-    "link": "https://example.com/project1",
-    "socials": ["https://twitter.com/project1"],
+    "link": "https://www.instagram.com/thegratitudebearofficial/",
+    "socials": ["https://www.instagram.com/thegratitudebearofficial/"],
     "imgLink": "https://i.imgur.com/FEXhRa1.png"
   },
   {
     "projectName": "Natural Ancestors",
     "description": "Web Development, Engineering, Web3 planning, Project Lead",
-    "link": "https://example.com/project2",
-    "socials": ["https://twitter.com/project2"],
-    "imgLink": "https://i.imgur.com/8Sc7QT1.png"
+    "link": "https://www.instagram.com/naturalancestors/",
+    "socials": ["https://www.instagram.com/naturalancestors/"],
+    "imgLink": "https://i.imgur.com/OdwqIKE.png"
   },
   {
     "projectName": "F30-Performance",
     "description": "Engineering, Business planning",
     "link": "https://example.com/project1",
     "socials": ["https://twitter.com/project1"],
-    "imgLink": "https://i.imgur.com/8Sc7QT1.png"
+    "imgLink": "https://i.imgur.com/KkjrgU2.png"
   },
   {
-    "projectName": "Project 2",
-    "description": "Description for project 2",
-    "link": "https://example.com/project2",
+    "projectName": "Green Chain",
+    "description": "Engineering, Business planning, token development, Project Lead, web3 planning",
+    "link": "https://green-chain-mu.vercel.app/",
     "socials": ["https://twitter.com/project2"],
-    "imgLink": "https://i.imgur.com/8Sc7QT1.png"
+    "imgLink": "https://i.imgur.com/9kAvsYe.png"
   }
 ]

@@ -37,7 +37,7 @@ const Hero = () => {
           <h1 className=" hero-heading text-gray-400">
             <b className="text-orange-500">De</b>CODE NEXT
           </h1>
-          <p className="mb-5 max-w-64 font-robert-regular">
+          <p className="mb-5 max-w-md font-robert-regular text-xl">
             <br /> Computer Engineer | <br />
             web3/web2 Developer/Consultant|
             <br />
